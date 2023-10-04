@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import datetime
 from calculate import retrain
 from calculate import make_prediction
-import os os.environ['MPLCONFIGDIR'] = os.getcwd() + "/configs/"
+
 
 date = datetime.today().strftime('%Y-%m-%d')
 st.write("DATE : ",date)
